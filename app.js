@@ -1,6 +1,8 @@
 // Let's brainstorm here
 // I'll want to check if its got a single character, that's the base case
 // Do I test it's length all the time? If it's one character print. If it's two characters add it to a new string, then concatenate the first letter to the second later that's already in there. If it's three letters, then add the 3rd, then n-1 to 2 adding the second, then n-1 adding the first
+// That didn't quite work. When I asked my girlfriend she started with the last character, so we'll try that way
+// It worked
 
 // Declaring the function
 function stringReversal(str) {
